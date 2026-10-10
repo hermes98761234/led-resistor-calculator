@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LED Resistor Calculator: resistor value, power and wiring for LEDs</title>
+    <meta name="description" content="Free LED resistor calculator: enter supply voltage, LED colour and current to get the series resistor, the nearest E12/E24/E96 value, real current, resistor power rating and efficiency. Series and parallel arrays, layout optimizer and wiring diagram. Runs in your browser." />
+    <meta name="keywords" content="LED resistor calculator, LED series resistor, LED current limiting resistor, E24 resistor, LED array calculator, series parallel LEDs, resistor power rating, LED wiring diagram" />
+    <meta name="author" content="Volodymyr Kopytsia" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="canonical" href="https://hermes98761234.github.io/led-resistor-calculator/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="LED R" />
+
+    <!-- Open Graph / Facebook / Telegram / Slack -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="LED Resistor Calculator" />
+    <meta property="og:url" content="https://hermes98761234.github.io/led-resistor-calculator/" />
+    <meta property="og:title" content="Which resistor does your LED need?" />
+    <meta property="og:description" content="Resistor value, power rating, real current and wiring for single LEDs and series/parallel arrays." />
+    <meta property="og:image" content="https://hermes98761234.github.io/led-resistor-calculator/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="An LED with a series resistor and the headline: which resistor does your LED need?" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="uk_UA" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Which resistor does your LED need?" />
+    <meta name="twitter:description" content="Free LED resistor calculator with E-series parts, array optimizer and wiring diagram. Runs in your browser." />
+    <meta name="twitter:image" content="https://hermes98761234.github.io/led-resistor-calculator/og-image.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "LED Resistor Calculator",
+        "url": "https://hermes98761234.github.io/led-resistor-calculator/",
+        "description": "Calculates the series resistor for LEDs: nearest E-series value, real current, power rating, efficiency, series/parallel array layouts and a wiring diagram.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "inLanguage": ["en", "uk"],
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Volodymyr Kopytsia" }
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>This calculator needs JavaScript.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
